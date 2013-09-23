@@ -13,6 +13,13 @@ function piwik_config_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'piwik_page_title_hierarchy';
+  $strongarm->value = 1;
+  $export['piwik_page_title_hierarchy'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'piwik_privacy_donottrack';
   $strongarm->value = 0;
   $export['piwik_privacy_donottrack'] = $strongarm;
