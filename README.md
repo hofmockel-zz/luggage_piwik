@@ -1,4 +1,4 @@
-piwik_config
+luggage_piwik
 ============
 
 Conservative Piwik config

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * piwik_config.strongarm.inc
+ * luggage_piwik.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function piwik_config_strongarm() {
+function luggage_piwik_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();
